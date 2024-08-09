@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxima</title>
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <div class="navbar">
+      <p>Maxima</p>
+          <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+     <div class="navbar-b">
+      <div class="dropdown">
+        <select name="">
+           <option value="1">Categories</option>
+           <option value="2">All</option>
+           <option value="3">Toiletries</option>
+           <option value="4">Phone Accessories</option>
+           <option value="5">Beauty</option>
+        </select>
+      </div>
+      <div class="search">
+          <input type="search" placeholder="search...">
+          <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div id="cart">
+      <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+           <ul id="cart-items">
+           </ul>
+           <p>Total: $<span id="cart-total">0.00</span></p>
+           <button id="buy-btn">Buy</button>
+      </div>
+      <div id="total-amount-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p>Total amount to pay: $<span id="total-amount"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <main><div id="product-list" class="product-list"></div></main>
+  <script src="scripts.js"></script>
+</body>
+</html>
+   
+        
+        
